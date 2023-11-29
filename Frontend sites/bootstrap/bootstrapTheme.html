@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap Template</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="CSS/normalize.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <style></style>
+  </head>
+  <body>
+    <div class="bg-img">
+      <nav
+        class="navbar navbar-expand-lg bg-body-tertiary second-header navbar-dark flex-wrap"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand logo col-5" href="#">
+            <img
+              src="https://startbootstrap.github.io/startbootstrap-agency/assets/img/navbar-logo.svg"
+              alt="Logo"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="menu-btn-link">Menu</span>
+            <span class="navbar-toggler-icon menu-btn-link"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse col-6 justify-content-around"
+            id="navbarScroll"
+          >
+            <div class="wrapper nav-list">
+              <ul
+                class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+                style="--bs-scroll-height: 200px"
+              >
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#services"> SERVICES </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#portfolio">PORTFOLIO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#about">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#team">TEAM</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#contact">CONTACT</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <header class="masthead">
+        <div class="container">
+          <div class="masthead-subheading">Welcome To Our Studio!</div>
+          <div class="masthead-heading text-uppercase">
+            It's Nice To Meet You
+          </div>
+          <a
+            class="btn btn-primary btn-xl text-uppercase px-5 py-3 btn-warning text-light"
+            href="#services"
+            >Tell Me More</a
+          >
+        </div>
+      </header>
+    </div>
+
+    <div class="container">
+      <section class="row page-section" id="services">
+        <div class="text-center">
+          <h1>SERVICES</h1>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+        <div class="services-content d-flex flex-wrap">
+          <div class="wrapper text-center p-2 col-md-4">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <h2 class="mt-2">E-Commerce</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+              maxime quam architecto quo inventore harum ex magni, dicta
+              impedit.
+            </p>
+          </div>
+          <div class="wrapper text-center p-2 col-md-4">
+            <i class="fa-solid fa-laptop"></i>
+            <h2 class="mt-2">Responsive Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+              maxime quam architecto quo inventore harum ex magni, dicta
+              impedit.
+            </p>
+          </div>
+          <div class="wrapper text-center p-2 col-md-4">
+            <i class="fa-solid fa-lock"></i>
+            <h2 class="mt-2">Web Security</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+              maxime quam architecto quo inventore harum ex magni, dicta
+              impedit.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="container mw-100">
+      <section class="row page-section" id="portfolio">
+        <div class="text-center">
+          <h1>PORTFOLIO</h1>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+        <div class="cards d-flex flex-wrap text-center">
+          <div
+            class="card col-lg-4 col-sm-6 mb-4"
+            style="width: 20em; margin: 1px auto"
+          >
+            <div class="overlay-container">
+              <img
+                src="https://startbootstrap.github.io/startbootstrap-agency/assets/img/portfolio/1.jpg"
+                class="card-img-top"
+                alt="..."
+                data-client="Threads"
+                data-catagory="Illustration"
+              />
+              <div class="overlay"><i class="fa-solid fa-plus"></i></div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Threads</h5>
+              <p class="card-text">Illustration</p>
+            </div>
+          </div>
+
+          <div
+            class="card col-lg-4 col-sm-6 mb-4"
+            style="width: 20em; margin: 1px auto"
+          >
+            <div class="overlay-container">
+              <img
+                src="https://startbootstrap.github.io/startbootstrap-agency/assets/img/portfolio/2.jpg"
+                class="card-img-top"
+                alt="..."
+                data-client="Explore"
+                data-catagory="Graphic Design"
+              />
+              <div class="overlay"><i class="fa-solid fa-plus"></i></div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Explore</h5>
+              <p class="card-text">Graphic Design</p>
+            </div>
+          </div>
+
+          <div
+            class="card col-lg-4 col-sm-6 mb-4"
+            style="width: 20em; margin: 1px auto"
+          >
+            <div class="overlay-container">
+              <img
+                src="https://startbootstrap.github.io/startbootstrap-agency/assets/img/portfolio/3.jpg"
+                class="card-img-top"
+                alt="..."
+                data-client="Finish"
+                data-catagory="Identity"
+              />
+              <div class="overlay"><i class="fa-solid fa-plus"></i></div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Finish</h5>
+              <p class="card-text">Identity</p>
+            </div>
+          </div>
+
+          <div
+            class="card col-lg-4 col-sm-6 mb-4"
+            style="width: 20em; margin: 1px auto"
+          >
+            <div class="overlay-container">
+              <img
+                src="https://startbootstrap.github.io/startbootstrap-agency/assets/img/portfolio/4.jpg"
+                class="card-img-top"
+                alt="..."
+                data-client="Lines"
+                data-catagory="Branding"
+              />
+              <div class="overlay"><i class="fa-solid fa-plus"></i></div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Lines</h5>
+              <p class="card-text">Branding</p>
+            </div>
+          </div>
+
+          <div
+            class="card col-lg-4 col-sm-6 mb-4"
+            style="width: 20em; margin: 1px auto"
+          >
+            <div class="overlay-container">
+              <img
+                src="https://startbootstrap.github.io/startbootstrap-agency/assets/img/portfolio/5.jpg"
+                class="card-img-top"
+                alt="..."
+                data-client="Southwest"
+                data-catagory="Website Design"
+              />
+              <div class="overlay"><i class="fa-solid fa-plus"></i></div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Southwest</h5>
+              <p class="card-text">Website Design</p>
+            </div>
+          </div>
+
+          <div
+            class="card col-lg-4 col-sm-6 mb-4"
+            style="width: 20em; margin: 1px auto"
+          >
+            <div class="overlay-container">
+              <img
+                src="https://startbootstrap.github.io/startbootstrap-agency/assets/img/portfolio/6.jpg"
+                class="card-img-top"
+                alt="..."
+                data-client="Window"
+                data-catagory="Photography"
+              />
+              <div class="overlay"><i class="fa-solid fa-plus"></i></div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Window</h5>
+              <p class="card-text">Photography</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="container mw-100">
+      <section class="page-section" id="about">
+        <div class="container">
+          <div class="text-center">
+            <h2 class="section-heading text-uppercase">About</h2>
+            <h3 class="section-subheading text-muted">
+              Lorem ipsum dolor sit amet consectetur.
+            </h3>
+          </div>
+          <div class="timeline">
+            <div class="timeline_container left">
+              <img
+                class="timeline_img img_left"
+                src="https://startbootstrap.github.io/startbootstrap-agency/assets/img/about/1.jpg"
+                alt=""
+              />
+              <div class="timeline_content timeline_content_left">
+                <h4>2009-2011</h4>
+                <h4>Our Humble Beginnings</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
+                  ut voluptatum eius sapiente, totam reiciendis temporibus qui
+                  quibusdam, recusandae sit vero unde, sed, incidunt et ea quo
+                  dolore laudantium consectetur!
+                </p>
+              </div>
+            </div>
+            <div class="timeline_container right">
+              <img
+                class="timeline_img img_right"
+                src="https://startbootstrap.github.io/startbootstrap-agency/assets/img/about/2.jpg"
+                alt=""
+              />
+              <div class="timeline_content timeline_content_right">
+                <h4>March 2011</h4>
+                <h4>An Agency is Born</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
+                  ut voluptatum eius sapiente, totam reiciendis temporibus qui
+                  quibusdam, recusandae sit vero unde, sed, incidunt et ea quo
+                  dolore laudantium consectetur!
+                </p>
+              </div>
+            </div>
+            <div class="timeline_container left">
+              <img
+                class="timeline_img img_left"
+                src="https://startbootstrap.github.io/startbootstrap-agency/assets/img/about/3.jpg"
+                alt=""
+              />
+
+              <div class="timeline_content timeline_content_left">
+                <h4>December 2015</h4>
+                <h4>Transition to Full Service</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
+                  ut voluptatum eius sapiente, totam reiciendis temporibus qui
+                  quibusdam, recusandae sit vero unde, sed, incidunt et ea quo
+                  dolore laudantium consectetur!
+                </p>
+              </div>
+            </div>
+            <div class="timeline_container right">
+              <img
+                class="timeline_img img_right"
+                src="https://startbootstrap.github.io/startbootstrap-agency/assets/img/about/4.jpg"
+                alt=""
+              />
+              <div class="timeline_content timeline_content_right">
+                <h4>July 2020</h4>
+                <h4>Phase Two Expansion</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
+                  ut voluptatum eius sapiente, totam reiciendis temporibus qui
+                  quibusdam, recusandae sit vero unde, sed, incidunt et ea quo
+                  dolore laudantium consectetur!
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline_container left">
+              <div
+                class="timeline_img bg-warning text-center text-light timeline_text img_left py-sm-3 px-sm-4 py-md-1 px-md-5"
+              >
+                <p class="align-items-center timeline_last_text">
+                  <strong>Be&nbsp;Part Of&nbsp;Our Story! <br /></strong>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="container mw-100">
+      <section class="row page-section" id="team">
+        <div class="text-center">
+          <h1>OUR AMAZING TEAM</h1>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+        <div class="wrapper team-member d-flex text-center flex-wrap">
+          <div class="col-12 col-lg-4 mb-4">
+            <img
+              class="mx-auto rounded-circle"
+              src="https://startbootstrap.github.io/startbootstrap-agency/assets/img/team/1.jpg"
+              alt="..."
+            />
+            <h4>Parveen Anand</h4>
+            <p class="text-muted">Lead Designer</p>
+            <div class="social-icons">
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-facebook-f" style="padding: 10px 13px"></i>
+              <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 mb-4">
+            <img
+              class="mx-auto rounded-circle"
+              src="https://startbootstrap.github.io/startbootstrap-agency/assets/img/team/2.jpg"
+              alt="..."
+            />
+            <h4>Diana Petersen</h4>
+            <p class="text-muted">Lead Marketer</p>
+            <div class="social-icons">
+              <i class="fa-brands fa-twitter"></i>
+
+              <i class="fa-brands fa-facebook-f" style="padding: 10px 13px"></i>
+              <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <img
+              class="mx-auto rounded-circle"
+              src="https://startbootstrap.github.io/startbootstrap-agency/assets/img/team/3.jpg"
+              alt="..."
+            />
+            <h4>Larry Parker</h4>
+            <p class="text-muted">Lead Developer</p>
+            <div class="social-icons">
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-facebook-f" style="padding: 10px 13px"></i>
+              <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+          </div>
+          <div
+            class="col-lg-8 mx-auto text-center mt-4"
+            style="font-size: 15px"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque,
+            laboriosam veritatis,&nbsp;quos non quis ad perspiciatis, totam
+            corporis ea, alias ut unde.
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- <div class="container"> -->
+    <section class="p-1">
+      <div class="py-5">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-3 col-sm-6 my-3">
+              <a href="#!"
+                ><img
+                  class="img-fluid img-brand d-block mx-auto"
+                  src="https://startbootstrap.github.io/startbootstrap-agency/assets/img/logos/microsoft.svg"
+                  alt="..."
+                  aria-label="Microsoft Logo"
+              /></a>
+            </div>
+            <div class="col-md-3 col-sm-6 my-3">
+              <a href="#!"
+                ><img
+                  class="img-fluid img-brand d-block mx-auto"
+                  src="https://startbootstrap.github.io/startbootstrap-agency/assets/img/logos/google.svg"
+                  alt="..."
+                  aria-label="Google Logo"
+              /></a>
+            </div>
+            <div class="col-md-3 col-sm-6 my-3">
+              <a href="#!"
+                ><img
+                  class="img-fluid img-brand d-block mx-auto"
+                  src="https://startbootstrap.github.io/startbootstrap-agency/assets/img/logos/facebook.svg"
+                  alt="..."
+                  aria-label="Facebook Logo"
+              /></a>
+            </div>
+            <div class="col-md-3 col-sm-6 my-3">
+              <a href="#!"
+                ><img
+                  class="img-fluid img-brand d-block mx-auto"
+                  src="https://startbootstrap.github.io/startbootstrap-agency/assets/img/logos/ibm.svg"
+                  alt="..."
+                  aria-label="IBM Logo"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- </div> -->
+
+    <section class="page-section text-light text-center" id="contact">
+      <h2 class="section-heading text-uppercase">Contact Us</h2>
+      <h3 class="section-subheading text-muted">
+        Lorem ipsum dolor sit amet consectetur.
+      </h3>
+      <div class="d-flex flex-wrap justify-content-center m-auto">
+        <section class="col-12 col-md-6">
+          <div class="input-group input-group-lg mb-4">
+            <!-- <span class="input-group-text" id="inputGroup-sizing-lg">Large</span> -->
+            <input
+              type="text"
+              class="form-control p-3 contact-inputs"
+              aria-label="Sizing example input"
+              placeholder="Your Name*"
+            />
+          </div>
+
+          <div class="input-group input-group-lg mb-4">
+            <!-- <span class="input-group-text" id="inputGroup-sizing-lg">Large</span> -->
+            <input
+              type="email"
+              class="form-control p-3 contact-inputs"
+              aria-label="Sizing example input"
+              placeholder="Your Email*"
+            />
+          </div>
+
+          <div class="input-group input-group-lg mb-4">
+            <!-- <span class="input-group-text" id="inputGroup-sizing-lg">Large</span> -->
+            <input
+              type="text"
+              class="form-control p-3 contact-inputs"
+              aria-label="Sizing example input"
+              placeholder="Your Phone*"
+            />
+          </div>
+        </section>
+        <section class="input-group-lg col-12 col-md-6">
+          <textarea
+            class="rounded form-control pl-2 m-auto"
+            cols="10"
+            rows="7"
+            placeholder="Your Message*"
+            style="width: 80%"
+          ></textarea>
+        </section>
+      </div>
+      <button
+        type="button"
+        class="btn btn-warning text-light btn-xl mt-5 py-3 px-5 disabled"
+      >
+        Send Message
+      </button>
+    </section>
+    <footer class="d-flex justify-content-between px-4 py-3">
+      <div class="wrapper">Copyright © Your Website 2023</div>
+
+      <div class="wrapper">
+        <div class="social-icons">
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-facebook-f" style="padding: 10px 13px"></i>
+          <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+      </div>
+      <div class="wrapper">
+        <ul class="list-group list-group-horizontal">
+          <li class="list-group-item border-0 fs-6">
+            <a href="#" class="text-dark">Privacy Policy</a>
+          </li>
+          <li class="list-group-item border-0 fs-6">
+            <a href="#" class="text-dark">Terms of Use</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="myModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header border-0">
+            <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body d-flex flex-column text-center">
+            <h2 class="text-uppercase">PROJECT NAME</h2>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <img
+              src=""
+              class="img-fluid w-50 mx-auto my-2 model_img"
+              alt=""
+              class="model-image"
+            />
+            <p class="w-75 m-auto p-4">
+              Use this area to describe your project. Lorem ipsum dolor sit
+              amet, consectetur adipisicing elit. Est blanditiis dolorem culpa
+              incidunt minus dignissimos deserunt repellat aperiam quasi sunt
+              officia expedita beatae cupiditate, maiores repudiandae, nostrum,
+              reiciendis facere nemo!
+            </p>
+            <ul>
+              <li><strong>Client:</strong> <span id="client"></span></li>
+              <li><strong>Catagory:</strong> <span id="catagory"></span></li>
+            </ul>
+            <button
+              type="button"
+              class="btn btn-warning close-button mx-auto my-5 text-light fs-5 py-2 px-4"
+              data-bs-dismiss="modal"
+            >
+              <i class="fa-solid fa-xmark"></i> Close Project
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="scripts/jquery.js"></script>
+  </body>
+</html>

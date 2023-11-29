@@ -1,0 +1,64 @@
+.top-section ul{
+    font-size: 13px;
+    background: rgb(23,2,57);
+background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+max-width: fit-content;
+list-style: none;
+}
+
+a{
+cursor: pointer;
+}
+.text-gradient {
+  background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.top-section p{
+  color: #69707A;
+}
+
+.background_gradient{
+  /* width: 40vw; */
+  /* height: 90vh; */
+background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+}
+
+.about-section{
+  background-color: #f8f9fa;
+}
+
+h2{
+  font-size: 55px;
+}
+
+.hidden {
+  display: none;
+}
+footer ul{
+  list-style: none;
+  color: #1e30f3;
+  cursor: pointer;
+}
+
+/* Resume */
+
+.content{
+  max-width: 58vw;
+}
+
+/* Education */
+.text-pink{
+  color: #e21e80;
+}
+
+.feature{
+  display: flex;
+  background-color: #1e30f3b8;
+  background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+  width: 2rem;
+  height: 2rem;
+  justify-content: center;
+  align-items: center;
+}

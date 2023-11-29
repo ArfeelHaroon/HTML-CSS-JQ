@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Floating Elements</title>
+    <style>
+      html {
+        background-color: rgba(0, 0, 0, 0.816);
+        color: aliceblue;
+      }
+      article {
+        border: 3px solid lightgray;
+      }
+      .avatar {
+        background-color: gold;
+        width: 5rem;
+        height: 5rem;
+        float: left;
+        margin-right: 10px;
+      }
+      .test::after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <article>
+      <div class="avatar"></div>
+      <p class="test">Lorem ipsum dolor sit amet.</p>
+      <p>
+        Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur
+        adipisicing elit. Enim eveniet quasi vitae reprehenderit maxime, harum
+        et! Fugiat vero, fugit, nesciunt, id ea distinctio nobis eos nemo cum
+        corrupti ad eveniet!
+      </p>
+      <!-- <div class="clear"></div> -->
+    </article>
+  </body>
+</html>

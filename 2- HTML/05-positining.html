@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Positioning Elements</title>
+    <style>
+      .boxes {
+        border: 3px solid lightgrey;
+        position: relative;
+        height: 200vh;
+      }
+
+      .box {
+        width: 5rem;
+        height: 5rem;
+      }
+      .box-one {
+        background-color: gold;
+      }
+      .box-two {
+        background-color: tomato;
+        position: fixed;
+        top: 0; /*It remove space from top */
+        left: 2rem; /*It add space from left   */
+        right: 2rem; /*It add space from right   */
+        width: auto; /*it give the width   */
+        z-index: 1;
+      }
+      .box-three {
+        background-color: dodgerblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="boxes">
+      <div class="box box-one"></div>
+      <div class="box box-two"></div>
+      <div class="box box-three"></div>
+    </div>
+  </body>
+</html>

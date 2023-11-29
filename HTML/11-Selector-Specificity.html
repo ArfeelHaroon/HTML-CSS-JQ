@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selector Specificity</title>
+    <link rel="stylesheet" href="CSS/normalize.css" />
+    <style>
+      body {
+        margin: 10px;
+      }
+      .highlight {
+        color: dodgerblue;
+      }
+      h1 {
+        color: brown;
+      }
+      #test {
+        color: red;
+      }
+      #test.highlight {
+        color: pink;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <h1 id="test" class="highlight">Heading</h1>
+    </section>
+  </body>
+</html>

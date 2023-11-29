@@ -1,0 +1,134 @@
+body{
+    margin: 10px;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+figure{
+    border: 1px solid gray;
+    width: fit-content;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+figcaption{
+    margin: 2px auto 0 auto;
+}
+.shapes{
+    background-color: dodgerblue;
+}
+#Square{
+    width: 100px;
+    height: 100px;
+}
+
+#rectangle{
+    width: 200px;
+    height: 100px;
+}
+
+#Circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+#Oval{
+    width: 200px;
+    height: 100px;
+    border-radius: 100%;
+}
+.Triangles{
+   width: 0;
+   height: 0;
+   border-left: 50px solid transparent;
+   border-right: 50px solid transparent;
+   margin: auto; /* only for align center */
+}
+#Triangle-Up{
+   border-bottom: 100px solid dodgerblue;
+}
+
+#Triangle-Down{
+   border-top: 100px solid dodgerblue;
+}
+
+#Triangle-Left{
+   border-top: 50px solid transparent;
+   border-bottom: 50px solid transparent;
+   border-right: 100px solid dodgerblue;
+   margin-left: 0;
+}
+
+#Triangle-Right{
+   border-top: 50px solid transparent;
+   border-bottom: 50px solid transparent;
+   border-left: 100px solid dodgerblue;
+   margin-left: 0;
+}
+
+#Triangle-Top-Left{
+      border-top: 100px solid dodgerblue;
+      border-right: 100px solid transparent;
+      border-left: 0;
+      margin: 0;
+}
+
+#Triangle-Top-Right{
+      border-top: 100px solid dodgerblue;
+      border-left: 100px solid transparent;
+      border-right: 0;
+      margin-right: 0;
+}
+
+#Triangle-Bottom-Left{
+     border-top: 100px solid transparent;
+     border-left: 100px solid dodgerblue;
+     margin: 0;
+}
+
+#Triangle-Bottom-Right{
+     border-top: 100px solid transparent;
+     border-right: 100px solid dodgerblue;
+     margin-right: 0;
+}
+
+#Trapezoid-Shape{
+      border-bottom: 100px solid dodgerblue;
+      border-left: 25px solid transparent;
+      border-right: 25px solid transparent;
+      height: 0;
+      width: 100px;
+    }
+
+#Parallelogram-Shape{
+      width: 150px;
+      height: 100px;
+      transform: skew(20deg);
+      margin: 0 20px; /* only for adjusting in div */
+      background-color: dodgerblue;
+    }
+
+#Star-6p-Shape{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid dodgerblue;
+    position: relative;
+    margin: 2px auto 31px; /* only for adjusting in div */
+}
+
+#Star-6p-Shape:after{
+     width: 0;
+     height: 0;
+     border-left: 50px solid transparent;
+     border-right: 50px solid transparent;
+     border-top: 100px solid dodgerblue;
+     position: absolute;
+     content: "";
+     top: 30px;
+     left: -50px;
+}

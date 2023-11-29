@@ -1,0 +1,27 @@
+body{
+    margin: 10px;
+}
+
+a[target="_blank"]{
+    color: aqua;
+}
+/* or */
+
+a[href="https://google.com"]{
+    color: aqua;
+}
+/* but the above our selector become more fergile
+we need to make it flexiable */
+
+/* The below selectors selects each anchor tag that
+have href attribute with value "google" inside*/
+a[href*="google"]{
+    color: aqua;
+}
+/* The below selects the anchor tag. That have 
+attribute value starts(^) from http and ends($)
+at .com*/
+
+a[href^="https"][href$=".com"]{
+    color: aqua;
+}

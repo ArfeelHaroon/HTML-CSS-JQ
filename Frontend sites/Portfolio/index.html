@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+      <div class="container px-5">
+        <a class="navbar-brand" href="index.html"
+          ><span class="fs-4 text-primary">My Portfolio</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+            <li class="nav-item home-btn">
+              <a class="nav-link" data-section="home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-section="resume">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-section="projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-section="contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- #home -->
+    <section id="home" class="sections mb-0">
+      <section class="top-section mt-5 text-center">
+        <ul class="m-auto px-2 my-4 fw-semibold text-light rounded-2 mt-2">
+          <li>DESIGN · DEVELOPMENT · MARKETING</li>
+        </ul>
+        <p class="fs-3 fw-lighter col col-sm-8 col-md-10 m-auto">
+          I can help your business to
+        </p>
+        <h2 class="text-gradient fw-bold col col-sm-8 col-md-10 m-auto py-1">
+          Get online and grow fast
+        </h2>
+        <div
+          class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start my-5 mx-2 mx-sm-4 mx-md-auto"
+        >
+          <a
+            class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder mb-md-5"
+            data-section="resume"
+            >Resume</a
+          >
+          <a
+            class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder mb-md-5"
+            data-section="projects"
+            >Projects</a
+          >
+        </div>
+      </section>
+
+      <!-- header profile picture -->
+      <section class="col-xxl-7">
+        <div
+          class="d-flex justify-content-center mt-5 mt-xxl-0 col-xs-10 col-md-6 m-auto"
+        >
+          <div class="background_gradient rounded-5 w-75">
+            <img
+              class="dev-img img-fluid"
+              src="https://cdn.pixabay.com/photo/2016/06/15/16/16/man-1459246_1280.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- About section -->
+      <section class="about-section text-center mt-5 py-5">
+        <!-- <h2 class="text-gradient fw-bolder mt-2">About Me</h2> -->
+        <h3 class="fw-bolder mb-1 mt-5">
+          <span class="text-gradient d-inline fs-1">About Me</span>
+        </h3>
+        <p class="fs-5 fw-lighter">
+          My name is Arfeel Haroon and I help brands grow.
+        </p>
+        <p class="w-75 m-auto text-secondary">
+          Experienced web developer proficient in both design and development,
+          with a focus on Laravel. Skilled in creating dynamic and visually
+          appealing websites to meet diverse client needs.
+        </p>
+        <div class="icons fs-1 mt-3 mb-5">
+          <i class="fa fa-twitter text-gradient" aria-hidden="true"></i>
+          <i class="fa fa-linkedin text-gradient" aria-hidden="true"></i>
+          <a href="https://github.com/ArfeelHaroon"
+            ><i class="fa fa-github text-gradient" aria-hidden="true"></i
+          ></a>
+        </div>
+      </section>
+    </section>
+    <!-- #resume -->
+    <section id="resume" class="hidden sections">
+      <!-- <h2 class="text-center text-gradient my-4">Resume</h2> -->
+      <h3 class="fw-bolder my-3 text-center">
+        <span class="text-gradient d-inline fs-2">Resume</span>
+      </h3>
+
+      <div class="content mx-auto mt-5">
+        <div class="sub-head d-flex justify-content-between mb-3">
+          <p class="my-auto fs-3 text-primary fw-bold">Experience</p>
+          <button type="button" class="btn btn-primary btn-lg px-3 py-2 fs-6">
+            <i class="fa fa-download" aria-hidden="true"></i>
+            Download Resume
+          </button>
+        </div>
+        <!-- cards -->
+        <div class="card shadow border-0 rounded-4 my-4">
+          <div class="card-body p-5">
+            <div class="row align-items-center gx-5">
+              <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                <div class="bg-light p-4 rounded-4">
+                  <div class="text-primary fw-bolder mb-2">2023 - Present</div>
+                  <div class="small fw-bolder">Web Developer</div>
+                  <div class="small text-muted">Redis Solutions</div>
+                  <div class="small text-muted">Rawalpindi, PK</div>
+                </div>
+              </div>
+              <div class="col-lg-8">
+                <div>
+                  Web developer at Redis Solutions, contributing expertise in
+                  Laravel to optimize data storage, retrieval, and enhance
+                  overall system performance. Proficient in leveraging Redis for
+                  efficient web application development within the dynamic
+                  environment of Redis Solutions.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- education -->
+        <div class="education_cards">
+          <p class="my-auto fs-3 fw-bold text-pink">Education</p>
+          <!-- card -->
+          <div class="card shadow border-0 rounded-4 my-4">
+            <div class="card-body p-5">
+              <div class="row align-items-center gx-5">
+                <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                  <div class="bg-light p-4 rounded-4">
+                    <div class="fw-bolder mb-2 text-pink">2022 - Present</div>
+                    <div class="small fw-bolder">saint mary's college</div>
+                    <div class="small text-muted">Rawalpindi, PK</div>
+                    <div class="small text-muted">Undergraduate</div>
+                    <div class="small text-muted">Computer Science</div>
+                  </div>
+                </div>
+                <div class="col-lg-8">
+                  <div>
+                    Currently pursuing Intermediate of Computer Science (ICS) at
+                    Saint Mary's College, Rawalpindi, Pakistan. Dedicated to
+                    acquiring a strong foundation in computer science principles
+                    and practical skills.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- card -->
+          <div class="card shadow border-0 rounded-4 my-4">
+            <div class="card-body p-5">
+              <div class="row align-items-center gx-5">
+                <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                  <div class="bg-light p-4 rounded-4">
+                    <div class="fw-bolder mb-2 text-pink">2020 - 2022</div>
+                    <div class="small fw-bolder">Station School</div>
+                    <div class="small text-muted">Rawalpindi, PK</div>
+                    <div class="small text-muted">Matric</div>
+                  </div>
+                </div>
+                <div class="col-lg-8">
+                  <div>
+                    I successfully completed my Matriculation at Station School
+                    Rawalpindi, Pakistan, laying the educational foundation for
+                    my journey. This solid academic background fuels my passion
+                    for web development and continuous learning in the field.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- skills -->
+        <div class="skills">
+          <!-- card -->
+          <div class="card shadow border-0 rounded-4 mb-5">
+            <div class="card-body p-5">
+              <!-- Professional skills list-->
+              <div class="mb-5">
+                <div class="d-flex align-items-center mb-4">
+                  <div class="feature text-white rounded-3 me-3">
+                    <i class="bi bi-tools"></i>
+                  </div>
+                  <h3 class="fw-bolder mb-0">
+                    <span class="text-gradient d-inline"
+                      >Professional Skills</span
+                    >
+                  </h3>
+                </div>
+                <div class="row row-cols-1 row-cols-md-3 mb-4">
+                  <div class="col">
+                    <div
+                      class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
+                    >
+                      Web Development
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div
+                      class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
+                    >
+                      User Interface Design
+                    </div>
+                  </div>
+                </div>
+                <!-- <div class="row row-cols-1 row-cols-md-3">
+                  <div class="col">
+                    <div
+                      class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
+                    >
+                      User Interface Design
+                    </div>
+                  </div>
+                </div> -->
+              </div>
+              <!-- Languages list-->
+              <div class="mb-4">
+                <div class="d-flex align-items-center mb-4">
+                  <div
+                    class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"
+                  >
+                    <i class="bi bi-code-slash"></i>
+                  </div>
+                  <h3 class="fw-bolder mb-0">
+                    <span class="text-gradient d-inline">Languages</span>
+                  </h3>
+                </div>
+                <div class="row row-cols-1 row-cols-md-3 mb-4">
+                  <div class="col mb-4 mb-md-0">
+                    <div
+                      class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
+                    >
+                      HTML
+                    </div>
+                  </div>
+                  <div class="col mb-4 mb-md-0">
+                    <div
+                      class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
+                    >
+                      CSS
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div
+                      class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
+                    >
+                      JavaScript
+                    </div>
+                  </div>
+                </div>
+                <div class="row row-cols-1 row-cols-md-3">
+                  <div class="col mb-4 mb-md-0">
+                    <div
+                      class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
+                    >
+                      PHP
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Frameworks List -->
+              <div class="mb-0">
+                <div class="d-flex align-items-center mb-4">
+                  <div
+                    class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"
+                  >
+                    <i class="bi bi-bezier"></i>
+                  </div>
+                  <h3 class="fw-bolder mb-0">
+                    <span class="text-gradient d-inline">Frameworks</span>
+                  </h3>
+                </div>
+                <div class="row row-cols-1 row-cols-md-3 mb-4">
+                  <div class="col mb-4 mb-md-0">
+                    <div
+                      class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
+                    >
+                      Bootstrap
+                    </div>
+                  </div>
+                  <div class="col mb-4 mb-md-0">
+                    <div
+                      class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
+                    >
+                      Jquery
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div
+                      class="d-flex align-items-center bg-light rounded-4 p-3 h-100"
+                    >
+                      Laravel
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- #projects -->
+    <section id="projects" class="hidden sections">
+      <section class="py-5">
+        <div class="container px-5 mb-5">
+          <div class="text-center mb-5">
+            <h1 class="display-5 fw-bolder mb-0">
+              <span class="text-gradient d-inline">Projects</span>
+            </h1>
+          </div>
+          <div class="row gx-5 justify-content-center">
+            <div class="col-lg-11 col-xl-9 col-xxl-8">
+              <!-- Project Card 1-->
+              <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                <div class="card-body p-0">
+                  <div class="d-flex align-items-center">
+                    <div class="p-5">
+                      <h2 class="fw-bolder fs-3">Project Name 1</h2>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Eius at enim eum illum aperiam placeat esse? Mollitia
+                        omnis minima saepe recusandae libero, iste ad
+                        asperiores! Explicabo commodi quo itaque! Ipsam!
+                      </p>
+                    </div>
+                    <img
+                      class="img-fluid"
+                      src="https://dummyimage.com/300x400/343a40/6c757d"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+              </div>
+              <!-- Project Card 2-->
+              <div class="card overflow-hidden shadow rounded-4 border-0">
+                <div class="card-body p-0">
+                  <div class="d-flex align-items-center">
+                    <div class="p-5">
+                      <h2 class="fw-bolder fs-3">Project Name 2</h2>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Eius at enim eum illum aperiam placeat esse? Mollitia
+                        omnis minima saepe recusandae libero, iste ad
+                        asperiores! Explicabo commodi quo itaque! Ipsam!
+                      </p>
+                    </div>
+                    <img
+                      class="img-fluid"
+                      src="https://dummyimage.com/300x400/343a40/6c757d"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="py-5 bg-gradient-primary-to-secondary text-white background_gradient"
+      >
+        <div class="container px-5 my-5">
+          <div class="text-center">
+            <h2 class="display-4 fw-bolder mb-4">
+              Let's build something together
+            </h2>
+            <a
+              class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder"
+              href="contact.html"
+              >Contact me</a
+            >
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section id="contact" class="hidden sections">
+      <section class="py-5">
+        <div class="container px-5">
+          <!-- Contact form-->
+          <div class="bg-light rounded-4 py-5 px-4 px-md-5">
+            <div class="text-center">
+              <div
+                class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 mb-3 mx-auto fs-3 p-4"
+              >
+                <i class="bi bi-envelope"></i>
+              </div>
+              <h1 class="fw-bolder">Get in touch</h1>
+              <p class="lead fw-normal text-muted mb-4">Let's work together!</p>
+            </div>
+            <div class="row gx-5 justify-content-center">
+              <div class="col-lg-8 col-xl-6">
+                <!-- * * * * * * * * * * * * * * *-->
+                <!-- * * SB Forms Contact Form * *-->
+                <!-- * * * * * * * * * * * * * * *-->
+                <!-- This form is pre-integrated with SB Forms.-->
+                <!-- To make this form functional, sign up at-->
+                <!-- https://startbootstrap.com/solution/contact-forms-->
+                <!-- to get an API token!-->
+                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                  <!-- Name input-->
+                  <div class="form-floating mb-3">
+                    <input
+                      class="form-control"
+                      id="name"
+                      type="text"
+                      placeholder="Enter your name..."
+                      data-sb-validations="required"
+                      data-sb-can-submit="no"
+                    />
+                    <label for="name">Full name</label>
+                    <div
+                      class="invalid-feedback"
+                      data-sb-feedback="name:required"
+                    >
+                      A name is required.
+                    </div>
+                  </div>
+                  <!-- Email address input-->
+                  <div class="form-floating mb-3">
+                    <input
+                      class="form-control"
+                      id="email"
+                      type="email"
+                      placeholder="name@example.com"
+                      data-sb-validations="required,email"
+                      data-sb-can-submit="no"
+                    />
+                    <label for="email">Email address</label>
+                    <div
+                      class="invalid-feedback"
+                      data-sb-feedback="email:required"
+                    >
+                      An email is required.
+                    </div>
+                    <div
+                      class="invalid-feedback"
+                      data-sb-feedback="email:email"
+                    >
+                      Email is not valid.
+                    </div>
+                  </div>
+                  <!-- Phone number input-->
+                  <div class="form-floating mb-3">
+                    <input
+                      class="form-control"
+                      id="phone"
+                      type="tel"
+                      placeholder="(123) 456-7890"
+                      data-sb-validations="required"
+                      data-sb-can-submit="no"
+                    />
+                    <label for="phone">Phone number</label>
+                    <div
+                      class="invalid-feedback"
+                      data-sb-feedback="phone:required"
+                    >
+                      A phone number is required.
+                    </div>
+                  </div>
+                  <!-- Message input-->
+                  <div class="form-floating mb-3">
+                    <textarea
+                      class="form-control"
+                      id="message"
+                      type="text"
+                      placeholder="Enter your message here..."
+                      style="height: 10rem"
+                      data-sb-validations="required"
+                      data-sb-can-submit="no"
+                    ></textarea>
+                    <label for="message">Message</label>
+                  </div>
+
+                  <!-- Submit Button-->
+                  <div class="d-grid">
+                    <button
+                      class="btn btn-primary btn-lg"
+                      id="submitButton"
+                      type="submit"
+                    >
+                      Submit
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- footer -->
+    <section>
+      <footer class="d-flex justify-content-around py-4 text-center bg-white">
+        <p class="my-auto">Copyright © Your Website 2023</p>
+        <ul class="d-flex flex-row my-auto">
+          <li>Privacy . Term . <a data-section="contact">Contact</a></li>
+        </ul>
+      </footer>
+    </section>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>

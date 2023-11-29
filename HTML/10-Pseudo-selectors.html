@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo selectors</title>
+    <style>
+      /* This will select only the first 
+        child of <section> tag */
+
+      /* section :first-child {
+        font-size: 120%;
+        font-style: italic;
+        color: brown;
+      } */
+      /* ---------------------------------------- */
+
+      /* This will select only first types of
+      the elements inside <section> tag  */
+
+      /* section :first-of-type {
+        font-size: 120%;
+        font-style: italic;
+        color: brown;
+      } */
+      /* ---------------------------------------- */
+
+      /* If we want to apply this rule only to the
+      first <p> tag in our <article> so we have to
+      type element type for now which is <p>. */
+
+      /* section p:first-of-type {
+        font-size: 120%;
+        font-style: italic;
+        color: brown;
+      } */
+
+      /* ----WE also have last-child and last-type-of---- */
+
+      /* This will select only the last 
+        child of <section> tag. It only works if the 
+        p was at last as we write P:last-child */
+
+      /* section p:last-child {
+        font-size: 120%;
+        font-style: italic;
+        color: brown;
+      } */
+      /* ---------------------------------------- */
+
+      /* How to select Even and Odd elements */
+      /* ul li:nth-child(odd) {
+        color: deeppink;
+      } */
+      /* ---------------------------------------- */
+      /* We can also use formula instead Even and Odd for 
+example (3n) this will select every 3rd item in our list*/
+      /* ul li:nth-child(3n) {
+        color: deeppink;
+      } */
+
+      /* ---We also have Pseudo classes for <a> tags--- */
+      a:visited,
+      a:link {
+        color: dodgerblue;
+      }
+
+      a:hover,
+      a:focus {
+        color: deeppink;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <h2>Lorem ipsum dolor sit.</h2>
+      <p>Lorem ipsum dolor sit.</p>
+      <p>Lorem ipsum dolor sit.</p>
+    </section>
+    <a href="https://somerandomwebsite.com">Link</a>
+    <ul>
+      <li>Items 1</li>
+      <li>Items 2</li>
+      <li>Items 3</li>
+      <li>Items 4</li>
+      <li>Items 5</li>
+    </ul>
+  </body>
+</html>
