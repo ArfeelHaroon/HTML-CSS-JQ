@@ -1,3 +1,6 @@
+html, body{
+  box-sizing: border-box;
+}
 .top-section ul{
     font-size: 13px;
     background: rgb(23,2,57);

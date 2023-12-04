@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('a').on("click",function(e){
+    $('a[data-section]').on("click",function(e){
         e.preventDefault();
         var targetSection = $(this).data('section');
         // Hide all sections
